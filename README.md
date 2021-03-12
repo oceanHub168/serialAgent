@@ -40,5 +40,8 @@ public void open()
 发送数据<br/>
 public void send(byte[] bOutArray) 
 
+接收数据
+public void onReceiverData(byte[] buffer, int buffsize);
+
 关闭<br/>
 public void close()
