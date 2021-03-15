@@ -1,7 +1,7 @@
 # serialAgent
 c++  封装的串口通信aar,适用android 
 
-# 使用
+# 使用 （限于android arm64-v8a架构,只编译此架构的so库）
 
 - 在项目的build.gradle 下面添加仓库地址
 ```
@@ -14,7 +14,7 @@ allprojects {
 }
 ```
 
-- 在项目中引用
+- 在模块中引用
 > api 'com.hub168.yh:serialAgent-android:1.0.0@aar'
 
 - 方法
